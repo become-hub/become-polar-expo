@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_bluetooth_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth: –"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_streaming_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Streaming: –"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- NEW: auth code prompt -->
+    <TextView
+        android:id="@+id/tv_auth_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter code on PC: –"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- NEW: mostra il battito -->
+    <TextView
+        android:id="@+id/tv_heart_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HR: – BPM"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- NEW: mostra l'HRV (RMSSD) -->
+    <TextView
+        android:id="@+id/tv_hrv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HRV (RMSSD): – ms"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_lf_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LF: --" />
+
+    <TextView
+        android:id="@+id/tv_hf_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HF: --" />
+
+</LinearLayout>
